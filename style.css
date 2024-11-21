@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+
+body {
+    background-color: #857575;
+    color: white;
+}
+
+header {
+    margin: auto;
+    padding: 1.2rem ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Teko', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+main{
+    align-items: center;
+    gap: 1.4em;
+}
+
+h2 { 
+    font-family: 'Inter', serif;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+article {
+    padding: 1rem;
+    justify-content: center;
+}
+
+div { 
+    display: flex;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+article > p {
+    text-align: center;
+    text-indent: 1.2rem;
+    font-family: 'Roboto', serif;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1.2em;
+    margin-top: 2em;
+    background-color: #DDDDDD;
+    align-items: center;
+}
+
+footer > p {
+    font-family: 'montserrat',serif;
+}
